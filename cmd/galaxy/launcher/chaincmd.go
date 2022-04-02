@@ -156,7 +156,7 @@ func initGenesis(ctx *cli.Context) error {
 	// if err := json.NewDecoder(file).Decode(genesis); err != nil {
 	// 	utils.Fatalf("invalid genesis file: %v", err)
 	// }
-	/* var balance *big.Int = futils.ToRlv(1000000) */
+	/* var balance *big.Int = futils.ToAxis(1000000) */
 	/* keys := make([]common.Address, 0, len(genesis.Alloc))
 	for a := range genesis.Alloc {
 		keys = append(keys, a)

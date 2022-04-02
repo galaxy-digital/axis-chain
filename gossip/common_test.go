@@ -67,7 +67,7 @@ type testEnv struct {
 }
 
 func newTestEnv() *testEnv {
-	genStore := makegenesis.FakeGenesisStore(genesisStakers, utils.ToRlv(genesisBalance), utils.ToRlv(genesisStake))
+	genStore := makegenesis.FakeGenesisStore(genesisStakers, utils.ToAxis(genesisBalance), utils.ToAxis(genesisStake))
 	genesis := genStore.GetGenesis()
 
 	genesis.Rules.Epochs.MaxEpochDuration = inter.Timestamp(maxEpochDuration)

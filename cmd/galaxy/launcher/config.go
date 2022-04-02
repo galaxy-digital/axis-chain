@@ -166,7 +166,7 @@ func getGalaxyGenesis(ctx *cli.Context) integration.InputGenesis {
 		if err != nil {
 			log.Crit("Invalid flag", "flag", FakeNetFlag.Name, "err", err)
 		}
-		fakeGenesisStore := makegenesis.FakeGenesisStore(num, futils.ToRlv(10000000000), futils.ToRlv(5000000))
+		fakeGenesisStore := makegenesis.FakeGenesisStore(num, futils.ToAxis(10000000000), futils.ToAxis(5000000))
 		genesis = integration.InputGenesis{
 			Hash: fakeGenesisStore.Hash(),
 			Read: func(store *genesisstore.Store) error {
