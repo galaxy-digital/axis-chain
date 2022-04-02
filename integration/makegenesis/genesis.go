@@ -57,31 +57,51 @@ func MakeGenesisStore() *genesisstore.Store {
 	genStore.SetRules(galaxy.MainNetRules())
 
 	var validatorAccounts = []ValidatorAccount{
-		// for mainnet
 		{
-			address:   "0x111118fa5f43538A4Fafc956920C575c29fCED43",
-			validator: "047cf4039d716c107f389b2b7ae1bc3775cf6d4aad3b3ab3f663d8f34bef892fa6397e4dbd60c5205464db38d2578a8201813c281304018b102b7530fc5f4e16ee",
+			address:   "0x14fCa2361553F821b65812fD40ab7bDEF37de3c2",
+			validator: "0xc0043d25984decfe1da8712fa974f84b776eb5c7389dfa91421c523bd6731348f6fa54bc2d43ff71ea562fe963206c220554763c6e8b20acdf671f180feb12ae6419",
 		},
 		{
-			address:   "0x2222a13de6d0ab4bfb017e1b29d6a5b430e07574",
-			validator: "04d8597293ef427f5fd03a9ea33b4bd77de037eb43f46553a1f6f57bee71b1b913c3a3bac451bd02b552ce376a07c28b540723acd08d2284b98a90925425b8e88f",
+			address:   "0xE285AC259F5F66E3580Db4dd2909A2E57fD1bF78",
+			validator: "0xc004c677dbb8836d031f6df7fce7e30ed9de9111fe8bfd17797208e380df76d017fadbe18181a0302acd8ea23dec49f98619b11764cd23c8b05f7a7e4fc7dd586d12",
 		},
 		{
-			address:   "0x3333bfdaf4a1b2f0b748f3a88e3c853d1e2b8f5d",
-			validator: "04b0df54022cf14df39e3caba140a6c83ab17d98055dacd6048c41ecc5ae2ceff164787fa5e1585e2670bd43d9fec86c055e13bc944eded3f90e3bc844c9a4b18c",
+			address:   "0xf31D5071964C7097e6a3aC6063e9CE437755c1Be",
+			validator: "0xc004a179f1099613066ffe442e2fc65c4cb09d8f257cd06fe76f9c95b01d88d5259b245dcbaa1e23f8b7ae7c882b04712dc0f31da605f9d7f46820f54ba21fed186a",
+		},
+		{
+			address:   "0x57C79538af87DD5583c188A9424b9Fed0ae6b620",
+			validator: "0xc004a99c17d848575b7792010e91fc11d5a29047af6085036f21587ddf51a71548a052cb96a3fa9c7f5bd6d7514fa34d8ab3c49a029bbf66b9c69da53863045d4d01",
+		},
+		{
+			address:   "0x0cc298DBA96D854d5626B22894D5c32634745f67",
+			validator: "0xc004bd2d38c0b432fd1dd7b4e93a4d33b39f790b903e50777c092f49b0af131ed014ed7f4302d93b54e3195b50b135c64e9dc0d280792c65994288167cba463f15b6",
+		},
+		{
+			address:   "0xe91Ee1838772964dEFdB46E5346168119882aa46",
+			validator: "0xc0049237fabf6617cb94283c646254a61dd774ea09761bfe15cd5b46adab720ed1e7dc8eca006904d9d7baecc12091143aa10605b3d7add17f5855b7d7079797f689",
+		},
+		{
+			address:   "0x8B1E640DD01Cd5Fda611214a48545bCbb3C5A306",
+			validator: "0xc0047b331e9078c50870e43a5e028f97d3fa1a7a2a3e36144499f9bee7d8383e1d823273137cdaf24fe13d45ce0c60168e45c6c9d1a2be323e26f23792b660266615",
+		},
+		{
+			address:   "0x323B6412c4329B3ba46165c4ca60d6d4f00965D1",
+			validator: "0xc004e094d25fe3a4af2ddcdcf52183eacc2ae22be5ba3f879add94271fdab9a9d02e2462d7a41cc3416a02c39e563648221a4408d157c2f45bb70ca85eda3c95c82e",
 		},
 	}
 
 	var initialAccounts = []string{
-		"0xb8B5BE7122f317F86b47778422e277cD91C0B031",
+		"0xD22f71Fb6820366Fe21A481e970b88058A917f2F",
+		"0x960c994FC3FB8D544d673C1a87335C0885D4DAe5",
 	}
 	num := len(validatorAccounts)
 
-	_total := 5000
-	_validator := 1
-	_staker := 5
-	_initial := (5000 - (_validator+_staker)*num) / len(initialAccounts)
+	_total := 150
+	_validator := 0
+	_staker := 3
 
+	_initial := (_total - (_validator+_staker)*num) / len(initialAccounts)
 	totalSupply := futils.ToAxis(uint64(_total) * 1e6)
 	balance := futils.ToAxis(uint64(_validator) * 1e6)
 	stake := futils.ToAxis(uint64(_staker) * 1e6)
@@ -198,69 +218,50 @@ func MakeTestnetGenesisStore() *genesisstore.Store {
 	genStore.SetRules(galaxy.TestNetRules())
 	var validatorAccounts = []ValidatorAccount{
 		{
-			address:   "0x034c37E7850A0DB0298664f723b357ff25FF31E2",
-			validator: "0439b9f3f5a56c6aa8c79e01094d496d4e5b0b2116f6e26790177fb7639ffdf473ed428b71eec45e9789e3210cd46e663b9852d2f58ce7070bf1c928ace37d904a",
+			address:   "0xC4A4393C956d76aCBB3F60c79dB83BD376708378",
+			validator: "0xc004cdbafa4f4d7d48f305a723b71b774fc45d54996acfe562f97867f6ae0cbaf21193cb553176a8833bef038284d73a9eecef996ddcfe5096ee08933e4ddffe6301",
 		},
 		{
-			address:   "0xA3F3571734840d9A01279D2696bDD20342eBF302",
-			validator: "04be3ddfc6d48ad5d0ab793968f30e412cfaf0a1e1bdf3af63f542c4082191349ef8d2d13a1a1ce2b1512526f1ff53bbb8365d7f2e953b64fcc8cc93ce6ab60d9d",
+			address:   "0xe8C8C6A989e4C8655fA3F11FB82FfA841B683CA4",
+			validator: "0xc0046e4edacf9574ef8c14679776f4262a537c868e38777490076183b589a40f5f6ed2e0329ad9d8d46c4dc7bdc5d8de108c1a8c821c5af20688e89c0e16bc5dbbcf",
+		},
+		{
+			address:   "0xE6D04Ec807b7683d2DfF94DeF41C19d7C6eb9FaA",
+			validator: "0xc004985b7f89a108bbe8912a0b0d76f5eae6d282a77694cf4f4900ace5c2aee03d0a23f1f836c447696b1d6d48b5ab36e1b5f13ebed521e5bbed20ebdc5def435d59",
+		},
+		{
+			address:   "0x528b66B85ccE01Fa10A765567910A3824897Fd71",
+			validator: "0xc004309ca7d17172cbd477cde6122f58032452d6033b0752dc3288b4cc5afb0ca867e181ec0186b6daa3014c94266e58f466d5a7959072d5b5ebdcb6bf00865f6cd3",
+		},
+		{
+			address:   "0xC0C111bC3108b04732EA5061bA0C126E3561DD3d",
+			validator: "0xc004f8be20597088549fa4954faa8e11c66c54f142cb9276e0a9de42d4ef1500c113d00fee4cf36973eab1035b0248da1cf035e9575b1de41c6720f3e4147046aae1",
+		},
+		{
+			address:   "0x23279ad9F6B48d17D75CAD2dE3fEEeCd77966467",
+			validator: "0xc00429b6b9d9b6f9cdcc6caa0439f386614defa05bfcd55b34c2fe33bc8f090ffa68ec58809d5c2b092a856d35f05d95ea9440fa37ea78bf3c82b88d4464ba71526d",
+		},
+		{
+			address:   "0x9c269BAAF93B5b6eb57198874c8Be42A3d445318",
+			validator: "0xc004c1668330a76794d54333700b833d772677827fc08dd6cd630508d1ebe914d574c9e2b0c9367ad090196e0217c23a4d3996f378d56723ad62b140743f0c00d445",
+		},
+		{
+			address:   "0x0BD337Cb966151F425FE7801F540dc6735bF927F",
+			validator: "0xc004eb204027dd5f5b167d2528058d8fc80e43455e6f6774e0bd4474c141dbbdb6f16fd6e7db6b4f108f8c0bf4f337091fbd52ac2584f7f0a0cec3950b89ac3c686c",
 		},
 	}
-	/* var validatorAccounts = []ValidatorAccount{
-		{
-			address:   "0x034c37E7850A0DB0298664f723b357ff25FF31E2",
-			validator: "0439b9f3f5a56c6aa8c79e01094d496d4e5b0b2116f6e26790177fb7639ffdf473ed428b71eec45e9789e3210cd46e663b9852d2f58ce7070bf1c928ace37d904a",
-		},
-		{
-			address:   "0xA3F3571734840d9A01279D2696bDD20342eBF302",
-			validator: "04be3ddfc6d48ad5d0ab793968f30e412cfaf0a1e1bdf3af63f542c4082191349ef8d2d13a1a1ce2b1512526f1ff53bbb8365d7f2e953b64fcc8cc93ce6ab60d9d",
-		},
-		{
-			address:   "0x4d16A5DCA915C2f2CE039f4204548A94f520EF2e",
-			validator: "0454c530e6781b0c7bb378199d903651745c68239c150c793751d4fbb2bf923eb7e3fd155b5235140e8534fdafd726f0dd213ab5bc07d51bcc598aa67bb260901a",
-		},
-		{
-			address:   "0x7ECB5240FB7237bE35ddd5E6B08994A8FC43E52D",
-			validator: "04847343604e986ba2b2fdd64c905503b85918fa206cac3df141e8bb61afee7c07e77196b4372d0b9ff9331b1eeff0a989ca22ab5c95cbfec4f77dc584a96f7278",
-		},
-		{
-			address:   "0xdD7792225BD36410F9deFD98878890eb6c8135ad",
-			validator: "04303bbac1433b0d46feae674db33fd2b62794803f53f0335d8743ae7f6005608bee87c7f73a25fe296fd184536bd83a79e60e6c35d53ca208d2aa00f0b18d36d2",
-		},
-		{
-			address:   "0xaA492E71d793C99D824efe945aE2091eb6e41977",
-			validator: "043ecdc02c855c322be643aee9b8f735e82bc664746b09304a9883e553cf64ba2e91c1f3ab39ae24ae27ed3d41c93d947b0e64cb78c06dd408532f99ef2d207895",
-		},
-		{
-			address:   "0xa73B9365479fBB5008E5222078F639b6039c2Aed",
-			validator: "0486fb9204c56ce4fc2e2de29db5c7df9917ea22cdd39b21234dd35a191d3e9677e199142799001101d79b5b8c4a2966c072b3a9f7c06c55151cd2ad27a3d3cd8b",
-		},
-		{
-			address:   "0x0716C6Bb0573e3FD902Eb4A7311863f8a1E411b9",
-			validator: "04be2adee5c7b3d15cdb8ae0a099a759117cc6d5bbe45018fe6e0b05d645ca43069051819a3173c7e87b8947d1d6d3ae85c9dbf725f6778ef417caf186bd8fcac9",
-		},
-	}
-	*/
 	var initialAccounts = []string{
-		"0x9cD60D0D9e4404Be3a1C890cAF477A08903Aca2b",
-		"0x8E1c7C2960B5298Bc2580619224E56023a27996B",
-		"0xEe8E84116F1903c1F0d723E9d1a92D20613a50d2",
-		"0x5f4632ceD4D32B02c9d2217B19888b8eC9749114",
-		"0x294cD6A64d63e9cbd92358C74cE751c43DE9F3dC",
-		"0x6752bDd135D92025611c01ab0f16b532a046E863",
-		"0xFaca4DAe41dcDD2618FfD083cf03Ef4C05078B79",
-		"0xd68ccE056fe53c6C349AdE5De472597B8D2b576c",
-		"0x4Af5d38b634C36d29F28Fe948383fA3be9fccda2",
-		"0x9509eb170B5007e5Ac607944F800b8A475cc9bC7",
+		"0x5c14C9Fe0754eb00aaD4d5522445BA890CB9E016",
+		"0x00b9A99Cf4824FEb0bA5d80F7D10Fe1a16a4B6E2",
 	}
 
 	num := len(validatorAccounts)
 
-	_total := 5000
-	_validator := 10
-	_staker := 100
-	_initial := (5000 - (_validator+_staker)*num) / 10
+	_total := 150
+	_validator := 0
+	_staker := 3
 
+	_initial := (_total - (_validator+_staker)*num) / 10
 	totalSupply := futils.ToAxis(uint64(_total) * 1e6)
 	balance := futils.ToAxis(uint64(_validator) * 1e6)
 	stake := futils.ToAxis(uint64(_staker) * 1e6)
