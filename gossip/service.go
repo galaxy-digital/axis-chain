@@ -367,7 +367,7 @@ func (s *Service) WaitBlockEnd() {
 
 // Stop method invoked when the node terminates the service.
 func (s *Service) Stop() error {
-	defer log.Info("relativity-galaxy service stopped")
+	defer log.Info("axis-galaxy service stopped")
 	s.verWatcher.Stop()
 	close(s.done)
 	s.emitter.Stop()

@@ -432,7 +432,7 @@ func (pm *ProtocolManager) Start(maxPeers int) {
 }
 
 func (pm *ProtocolManager) Stop() {
-	log.Info("Stopping relativity-galaxy protocol")
+	log.Info("Stopping axis-galaxy protocol")
 
 	pm.leecher.Stop()
 	pm.seeder.Stop()
@@ -466,7 +466,7 @@ func (pm *ProtocolManager) Stop() {
 	// Wait for all peer handler goroutines to come down.
 	pm.wg.Wait()
 
-	log.Info("relativity-galaxy protocol stopped")
+	log.Info("axis-galaxy protocol stopped")
 }
 
 func (pm *ProtocolManager) myProgress() PeerProgress {
