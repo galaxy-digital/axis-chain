@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/galaxy-digital/relativity-chain/integration/makegenesis"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
 
 	"github.com/ethereum/go-ethereum/params"
 )

@@ -7,9 +7,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-digital/relativity-chain/galaxy/genesis/sfc"
-	"github.com/galaxy-digital/relativity-chain/inter"
-	"github.com/galaxy-digital/relativity-chain/topicsdb"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/sfc"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/topicsdb"
 )
 
 func ApplyGenesis(s *Store, index *topicsdb.Index) {

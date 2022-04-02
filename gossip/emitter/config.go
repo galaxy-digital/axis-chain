@@ -7,8 +7,8 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	galaxy "github.com/galaxy-digital/relativity-chain/galaxy"
-	"github.com/galaxy-digital/relativity-chain/inter/validatorpk"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
 )
 
 // EmitIntervals is the configuration of emit intervals.

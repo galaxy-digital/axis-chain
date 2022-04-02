@@ -26,12 +26,12 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/utils/datasemaphore"
 
-	"github.com/galaxy-digital/relativity-chain/eventcheck"
-	"github.com/galaxy-digital/relativity-chain/eventcheck/parentlesscheck"
-	"github.com/galaxy-digital/relativity-chain/evmcore"
-	"github.com/galaxy-digital/relativity-chain/galaxy"
-	"github.com/galaxy-digital/relativity-chain/inter"
-	"github.com/galaxy-digital/relativity-chain/logger"
+	"github.com/galaxy-digital/axis-chain/eventcheck"
+	"github.com/galaxy-digital/axis-chain/eventcheck/parentlesscheck"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/logger"
 )
 
 const (

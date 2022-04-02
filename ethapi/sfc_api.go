@@ -8,7 +8,7 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-digital/relativity-chain/gossip/sfcapi"
+	"github.com/galaxy-digital/axis-chain/gossip/sfcapi"
 )
 
 // PublicSfcAPI provides an API to access SFC related information.

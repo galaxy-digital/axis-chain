@@ -7,10 +7,10 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 
-	"github.com/galaxy-digital/relativity-chain/eventcheck/gaspowercheck"
-	galaxy "github.com/galaxy-digital/relativity-chain/galaxy"
-	"github.com/galaxy-digital/relativity-chain/inter"
-	"github.com/galaxy-digital/relativity-chain/inter/validatorpk"
+	"github.com/galaxy-digital/axis-chain/eventcheck/gaspowercheck"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
 )
 
 // GasPowerCheckReader is a helper to run gas power check

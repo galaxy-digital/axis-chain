@@ -5,8 +5,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/galaxy-digital/relativity-chain/inter/validatorpk"
-	"github.com/galaxy-digital/relativity-chain/valkeystore/encryption"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
+	"github.com/galaxy-digital/axis-chain/valkeystore/encryption"
 )
 
 type MemKeystore struct {

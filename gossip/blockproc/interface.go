@@ -5,9 +5,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-digital/relativity-chain/evmcore"
-	"github.com/galaxy-digital/relativity-chain/galaxy"
-	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 type TxListener interface {

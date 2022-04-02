@@ -24,16 +24,16 @@ import (
 	"github.com/naoina/toml"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-digital/relativity-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/evmcore"
 
-	galaxy "github.com/galaxy-digital/relativity-chain/galaxy"
-	"github.com/galaxy-digital/relativity-chain/galaxy/genesisstore"
-	"github.com/galaxy-digital/relativity-chain/gossip"
-	"github.com/galaxy-digital/relativity-chain/gossip/gasprice"
-	"github.com/galaxy-digital/relativity-chain/integration"
-	"github.com/galaxy-digital/relativity-chain/integration/makegenesis"
-	futils "github.com/galaxy-digital/relativity-chain/utils"
-	"github.com/galaxy-digital/relativity-chain/vecmt"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesisstore"
+	"github.com/galaxy-digital/axis-chain/gossip"
+	"github.com/galaxy-digital/axis-chain/gossip/gasprice"
+	"github.com/galaxy-digital/axis-chain/integration"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
+	futils "github.com/galaxy-digital/axis-chain/utils"
+	"github.com/galaxy-digital/axis-chain/vecmt"
 )
 
 var (

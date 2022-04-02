@@ -2,8 +2,8 @@ package rlpstore
 
 import (
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/galaxy-digital/axis-chain/logger"
 	"github.com/galaxy-digital/lachesis-base/kvdb"
-	"github.com/galaxy-digital/relativity-chain/logger"
 )
 
 type Helper struct {

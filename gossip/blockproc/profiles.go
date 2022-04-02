@@ -7,7 +7,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 
-	"github.com/galaxy-digital/relativity-chain/inter/drivertype"
+	"github.com/galaxy-digital/axis-chain/inter/drivertype"
 )
 
 type ValidatorProfiles map[idx.ValidatorID]drivertype.Validator

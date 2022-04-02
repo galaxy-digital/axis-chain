@@ -35,9 +35,9 @@ import (
 	"github.com/galaxy-digital/lachesis-base/kvdb/memorydb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/galaxy-digital/relativity-chain/evmcore"
-	"github.com/galaxy-digital/relativity-chain/integration/makegenesis"
-	"github.com/galaxy-digital/relativity-chain/topicsdb"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
+	"github.com/galaxy-digital/axis-chain/topicsdb"
 )
 
 type testBackend struct {

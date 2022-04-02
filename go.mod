@@ -1,4 +1,4 @@
-module github.com/galaxy-digital/relativity-chain
+module github.com/galaxy-digital/axis-chain
 
 
 go 1.14

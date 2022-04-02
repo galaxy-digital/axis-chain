@@ -7,7 +7,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 	"github.com/galaxy-digital/lachesis-base/lachesis"
 
-	"github.com/galaxy-digital/relativity-chain/gossip/blockproc"
+	"github.com/galaxy-digital/axis-chain/gossip/blockproc"
 )
 
 type GalaxyEpochsSealerModule struct{}

@@ -34,8 +34,8 @@ import (
 	"github.com/ethereum/go-ethereum/trie"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-digital/relativity-chain/gossip/evmstore/evmpruner"
-	"github.com/galaxy-digital/relativity-chain/integration"
+	"github.com/galaxy-digital/axis-chain/gossip/evmstore/evmpruner"
+	"github.com/galaxy-digital/axis-chain/integration"
 )
 
 var (

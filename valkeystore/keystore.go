@@ -1,8 +1,8 @@
 package valkeystore
 
 import (
-	"github.com/galaxy-digital/relativity-chain/inter/validatorpk"
-	"github.com/galaxy-digital/relativity-chain/valkeystore/encryption"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
+	"github.com/galaxy-digital/axis-chain/valkeystore/encryption"
 )
 
 type RawKeystoreI interface {

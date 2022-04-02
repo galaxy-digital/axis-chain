@@ -5,7 +5,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 func (s *Store) GetGenesisHash() *hash.Hash {

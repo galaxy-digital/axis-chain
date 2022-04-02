@@ -9,7 +9,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/keystore"
 	"github.com/stretchr/testify/require"
 
-	"github.com/galaxy-digital/relativity-chain/valkeystore/encryption"
+	"github.com/galaxy-digital/axis-chain/valkeystore/encryption"
 )
 
 func TestFileKeystoreAdd(t *testing.T) {

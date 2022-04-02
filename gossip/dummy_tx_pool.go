@@ -9,7 +9,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	notify "github.com/ethereum/go-ethereum/event"
 
-	"github.com/galaxy-digital/relativity-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/evmcore"
 )
 
 // dummyTxPool is a fake, helper transaction pool for testing purposes

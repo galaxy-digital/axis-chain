@@ -10,7 +10,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/galaxy-digital/relativity-chain/galaxy/genesis/driver"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/driver"
 )
 
 var (

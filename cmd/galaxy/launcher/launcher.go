@@ -19,15 +19,15 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-digital/relativity-chain/cmd/galaxy/launcher/metrics"
-	"github.com/galaxy-digital/relativity-chain/cmd/galaxy/launcher/tracing"
-	"github.com/galaxy-digital/relativity-chain/debug"
-	"github.com/galaxy-digital/relativity-chain/flags"
-	"github.com/galaxy-digital/relativity-chain/gossip"
-	"github.com/galaxy-digital/relativity-chain/integration"
-	"github.com/galaxy-digital/relativity-chain/utils/errlock"
-	"github.com/galaxy-digital/relativity-chain/valkeystore"
-	_ "github.com/galaxy-digital/relativity-chain/version"
+	"github.com/galaxy-digital/axis-chain/cmd/galaxy/launcher/metrics"
+	"github.com/galaxy-digital/axis-chain/cmd/galaxy/launcher/tracing"
+	"github.com/galaxy-digital/axis-chain/debug"
+	"github.com/galaxy-digital/axis-chain/flags"
+	"github.com/galaxy-digital/axis-chain/gossip"
+	"github.com/galaxy-digital/axis-chain/integration"
+	"github.com/galaxy-digital/axis-chain/utils/errlock"
+	"github.com/galaxy-digital/axis-chain/valkeystore"
+	_ "github.com/galaxy-digital/axis-chain/version"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/galaxy-digital/relativity-chain/utils/cser"
+	"github.com/galaxy-digital/axis-chain/utils/cser"
 )
 
 var ErrUnknownTxType = errors.New("unknown tx type")

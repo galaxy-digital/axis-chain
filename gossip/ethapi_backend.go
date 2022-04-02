@@ -22,15 +22,15 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 	"github.com/pkg/errors"
 
-	"github.com/galaxy-digital/relativity-chain/ethapi"
-	"github.com/galaxy-digital/relativity-chain/evmcore"
-	galaxy "github.com/galaxy-digital/relativity-chain/galaxy"
-	"github.com/galaxy-digital/relativity-chain/gossip/blockproc"
-	"github.com/galaxy-digital/relativity-chain/gossip/sfcapi"
-	"github.com/galaxy-digital/relativity-chain/inter"
-	"github.com/galaxy-digital/relativity-chain/inter/drivertype"
-	"github.com/galaxy-digital/relativity-chain/topicsdb"
-	"github.com/galaxy-digital/relativity-chain/tracing"
+	"github.com/galaxy-digital/axis-chain/ethapi"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/gossip/blockproc"
+	"github.com/galaxy-digital/axis-chain/gossip/sfcapi"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter/drivertype"
+	"github.com/galaxy-digital/axis-chain/topicsdb"
+	"github.com/galaxy-digital/axis-chain/tracing"
 )
 
 // EthAPIBackend implements ethapi.Backend.

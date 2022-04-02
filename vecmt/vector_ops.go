@@ -6,7 +6,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/vecengine"
 	"github.com/galaxy-digital/lachesis-base/vecfc"
 
-	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 type CreationTimer interface {

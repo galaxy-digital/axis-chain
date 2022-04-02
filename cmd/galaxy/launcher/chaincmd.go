@@ -7,8 +7,8 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-digital/relativity-chain/galaxy/genesisstore"
-	"github.com/galaxy-digital/relativity-chain/integration/makegenesis"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesisstore"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
 )
 
 var (

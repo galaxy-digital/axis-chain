@@ -17,8 +17,8 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/simulations"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
 
-	"github.com/galaxy-digital/relativity-chain/galaxy/genesisstore"
-	"github.com/galaxy-digital/relativity-chain/integration/makegenesis"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesisstore"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
 )
 
 type topology func(net *simulations.Network, nodes []enode.ID)

@@ -8,7 +8,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 
-	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 // medianTimeIndex is a handy index for the MedianTime() func

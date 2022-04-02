@@ -7,8 +7,8 @@ import (
 	"github.com/galaxy-digital/lachesis-base/emitter/doublesign"
 	"github.com/galaxy-digital/lachesis-base/hash"
 
-	"github.com/galaxy-digital/relativity-chain/inter"
-	"github.com/galaxy-digital/relativity-chain/utils/errlock"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils/errlock"
 )
 
 type syncStatus struct {
