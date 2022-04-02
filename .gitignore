@@ -20,7 +20,7 @@ install.*.md
 # Dependencies
 vendor
 glide.lock
-
+install.*.md
 # patches and diff files
 *.patch
 *.diff
