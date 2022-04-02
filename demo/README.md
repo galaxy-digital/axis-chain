@@ -26,7 +26,7 @@ go run ../cmd/galaxy attach http://localhost:4000
 
 * Check the balance to ensure that node0 has something to transfer (node0 js-console):
 ```js
-rlv.getBalance(rlv.accounts[0]);
+axis.getBalance(axis.accounts[0]);
 ```
  
  output shows the balance value:
@@ -36,7 +36,7 @@ rlv.getBalance(rlv.accounts[0]);
 
 * Get node1 address:
 ```sh
-go run ../cmd/galaxy attach --exec "rlv.accounts[0]" http://localhost:4001
+go run ../cmd/galaxy attach --exec "axis.accounts[0]" http://localhost:4001
 ```
  output shows address:
 ```js
@@ -45,8 +45,8 @@ go run ../cmd/galaxy attach --exec "rlv.accounts[0]" http://localhost:4001
 
 * Transfer some amount from node0 to node1 address as receiver (node0 js-console):
 ```js
-rlv.sendTransaction(
-	{from: rlv.accounts[0], to: "0x02aff1d0a9ed566e644f06fcfe7efe00a3261d03", value:  "1000000000"},
+axis.sendTransaction(
+	{from: axis.accounts[0], to: "0x02aff1d0a9ed566e644f06fcfe7efe00a3261d03", value:  "1000000000"},
 	function(err, transactionHash) {
         if (!err)
             console.log(transactionHash + " success");
@@ -59,7 +59,7 @@ rlv.sendTransaction(
 
 * Check the transaction status by its unique hash (js-console):
 ```sh
-rlv.getTransactionReceipt("0x68a7c1daeee7e7ab5aedf0d0dba337dbf79ce0988387cf6d63ea73b98193adfd").blockNumber
+axis.getTransactionReceipt("0x68a7c1daeee7e7ab5aedf0d0dba337dbf79ce0988387cf6d63ea73b98193adfd").blockNumber
 ```
  output shows number of block, transaction was included in:
 ```
@@ -68,8 +68,8 @@ rlv.getTransactionReceipt("0x68a7c1daeee7e7ab5aedf0d0dba337dbf79ce0988387cf6d63e
 
 * As soon as transaction is included into a block you will see new balance of both node addresses:
 ```sh
-go run ../cmd/galaxy attach --exec "rlv.getBalance(rlv.accounts[0])" http://localhost:4000
-go run ../cmd/galaxy attach --exec "rlv.getBalance(rlv.accounts[0])" http://localhost:4001
+go run ../cmd/galaxy attach --exec "axis.getBalance(axis.accounts[0])" http://localhost:4000
+go run ../cmd/galaxy attach --exec "axis.getBalance(axis.accounts[0])" http://localhost:4001
 ```
  outputs:
 ```js

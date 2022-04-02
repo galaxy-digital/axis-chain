@@ -1,4 +1,4 @@
-# RLV galaxy 
+# AXIS galaxy 
 
 EVM-compatible chain secured by the Lachesis consensus algorithm.
 

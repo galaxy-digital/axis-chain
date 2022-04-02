@@ -408,11 +408,11 @@ func startNode(ctx *cli.Context, stack *node.Node) {
 	if ctx.GlobalBool(utils.ExitWhenSyncedFlag.Name) {
 		go func() {
 			for first := true; ; first = false {
-				// Call rlv_syncing until it returns false
+				// Call axis_syncing until it returns false
 				time.Sleep(5 * time.Second)
 
 				var syncing bool
-				err := rpcClient.CallContext(context.TODO(), &syncing, "rlv_syncing")
+				err := rpcClient.CallContext(context.TODO(), &syncing, "axis_syncing")
 				if err != nil {
 					continue
 				}

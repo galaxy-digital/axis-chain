@@ -174,25 +174,25 @@ func GetAPIs(apiBackend Backend) []rpc.API {
 		},
 	}
 
-	// NOTE: eth-namespace is doubled as rlv-namespace for branding purpose
+	// NOTE: eth-namespace is doubled as axis-namespace for branding purpose
 	double := []rpc.API{
 		{
-			Namespace: "rlv",
+			Namespace: "axis",
 			Version:   "1.0",
 			Service:   NewPublicEthereumAPI(apiBackend),
 			Public:    true,
 		}, {
-			Namespace: "rlv",
+			Namespace: "axis",
 			Version:   "1.0",
 			Service:   NewPublicBlockChainAPI(apiBackend),
 			Public:    true,
 		}, {
-			Namespace: "rlv",
+			Namespace: "axis",
 			Version:   "1.0",
 			Service:   NewPublicTransactionPoolAPI(apiBackend, nonceLock),
 			Public:    true,
 		}, {
-			Namespace: "rlv",
+			Namespace: "axis",
 			Version:   "1.0",
 			Service:   NewPublicAccountAPI(apiBackend.AccountManager()),
 			Public:    true,
