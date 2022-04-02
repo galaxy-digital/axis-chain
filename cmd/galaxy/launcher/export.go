@@ -20,8 +20,8 @@ import (
 	"github.com/status-im/keycard-go/hexutils"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-team/axis-chain/gossip"
-	"github.com/galaxy-team/axis-chain/integration"
+	"github.com/galaxy-digital/axis-chain/gossip"
+	"github.com/galaxy-digital/axis-chain/integration"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/galaxy-team/axis-chain/logger"
-	"github.com/galaxy-team/axis-chain/utils"
+	"github.com/galaxy-digital/axis-chain/logger"
+	"github.com/galaxy-digital/axis-chain/utils"
 )
 
 func TestConsensusCallback(t *testing.T) {

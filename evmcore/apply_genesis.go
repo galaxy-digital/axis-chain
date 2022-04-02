@@ -24,9 +24,9 @@ import (
 	"github.com/ethereum/go-ethereum/core/state"
 	"github.com/ethereum/go-ethereum/log"
 
-	galaxy "github.com/galaxy-team/axis-chain/galaxy"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis"
-	"github.com/galaxy-team/axis-chain/inter"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 // ApplyGenesis writes or updates the genesis block in db.

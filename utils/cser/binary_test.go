@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/galaxy-team/axis-chain/utils/fast"
+	"github.com/galaxy-digital/axis-chain/utils/fast"
 )
 
 func TestEmpty(t *testing.T) {

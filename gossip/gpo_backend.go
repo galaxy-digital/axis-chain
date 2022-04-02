@@ -4,9 +4,9 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-team/axis-chain/galaxy"
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/utils/concurrent"
+	"github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils/concurrent"
 )
 
 type GPOBackend struct {

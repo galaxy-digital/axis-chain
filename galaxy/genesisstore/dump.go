@@ -10,8 +10,8 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/status-im/keycard-go/hexutils"
 
-	"github.com/galaxy-team/axis-chain/utils/iodb"
-	"github.com/galaxy-team/axis-chain/utils/ioread"
+	"github.com/galaxy-digital/axis-chain/utils/iodb"
+	"github.com/galaxy-digital/axis-chain/utils/ioread"
 )
 
 var (

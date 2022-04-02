@@ -34,9 +34,9 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
-	"github.com/galaxy-team/axis-chain/gossip/sfcapi"
-	"github.com/galaxy-team/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/gossip/sfcapi"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 // PeerProgress is synchronization status of a peer

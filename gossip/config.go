@@ -14,13 +14,13 @@ import (
 	"github.com/galaxy-digital/lachesis-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/galaxy-team/axis-chain/eventcheck/heavycheck"
-	"github.com/galaxy-team/axis-chain/evmcore"
-	"github.com/galaxy-team/axis-chain/gossip/blockproc/verwatcher"
-	"github.com/galaxy-team/axis-chain/gossip/emitter"
-	"github.com/galaxy-team/axis-chain/gossip/evmstore"
-	"github.com/galaxy-team/axis-chain/gossip/filters"
-	"github.com/galaxy-team/axis-chain/gossip/gasprice"
+	"github.com/galaxy-digital/axis-chain/eventcheck/heavycheck"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/gossip/blockproc/verwatcher"
+	"github.com/galaxy-digital/axis-chain/gossip/emitter"
+	"github.com/galaxy-digital/axis-chain/gossip/evmstore"
+	"github.com/galaxy-digital/axis-chain/gossip/filters"
+	"github.com/galaxy-digital/axis-chain/gossip/gasprice"
 )
 
 const nominalSize uint = 1

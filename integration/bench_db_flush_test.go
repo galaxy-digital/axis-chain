@@ -15,12 +15,12 @@ import (
 	"github.com/galaxy-digital/lachesis-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/galaxy-team/axis-chain/galaxy/genesisstore"
-	"github.com/galaxy-team/axis-chain/gossip"
-	"github.com/galaxy-team/axis-chain/integration/makegenesis"
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/utils"
-	"github.com/galaxy-team/axis-chain/vecmt"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesisstore"
+	"github.com/galaxy-digital/axis-chain/gossip"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils"
+	"github.com/galaxy-digital/axis-chain/vecmt"
 )
 
 func BenchmarkFlushDBs(b *testing.B) {

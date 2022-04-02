@@ -9,11 +9,11 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
-	galaxy "github.com/galaxy-team/axis-chain/galaxy"
-	"github.com/galaxy-team/axis-chain/gossip/blockproc"
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/utils"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/gossip/blockproc"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils"
 )
 
 type EVMModule struct{}

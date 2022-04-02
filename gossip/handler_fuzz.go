@@ -11,10 +11,10 @@ import (
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
-	"github.com/galaxy-team/axis-chain/integration/makegenesis"
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/utils"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils"
 )
 
 const (

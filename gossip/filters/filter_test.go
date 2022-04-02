@@ -32,8 +32,8 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/galaxy-digital/lachesis-base/kvdb/table"
 
-	"github.com/galaxy-team/axis-chain/topicsdb"
-	"github.com/galaxy-team/axis-chain/utils/adapters/ethdb2kvdb"
+	"github.com/galaxy-digital/axis-chain/topicsdb"
+	"github.com/galaxy-digital/axis-chain/utils/adapters/ethdb2kvdb"
 )
 
 func testConfig() Config {

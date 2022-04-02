@@ -4,7 +4,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/evmcore"
 )
 
 func (s *Store) GetCachedEvmBlock(n idx.Block) *evmcore.EvmBlock {

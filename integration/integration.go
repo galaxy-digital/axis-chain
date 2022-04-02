@@ -10,10 +10,10 @@ import (
 	"github.com/galaxy-digital/lachesis-base/utils/cachescale"
 	"github.com/status-im/keycard-go/hexutils"
 
-	"github.com/galaxy-team/axis-chain/gossip"
-	"github.com/galaxy-team/axis-chain/inter/validatorpk"
-	"github.com/galaxy-team/axis-chain/valkeystore"
-	"github.com/galaxy-team/axis-chain/vecmt"
+	"github.com/galaxy-digital/axis-chain/gossip"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
+	"github.com/galaxy-digital/axis-chain/valkeystore"
+	"github.com/galaxy-digital/axis-chain/vecmt"
 )
 
 var (

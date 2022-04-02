@@ -22,13 +22,13 @@ import (
 	"github.com/galaxy-digital/lachesis-base/lachesis"
 	"github.com/galaxy-digital/lachesis-base/utils/workers"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
-	galaxy "github.com/galaxy-team/axis-chain/galaxy"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/gpos"
-	"github.com/galaxy-team/axis-chain/integration/makegenesis"
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/utils"
-	"github.com/galaxy-team/axis-chain/utils/gsignercache"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/gpos"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils"
+	"github.com/galaxy-digital/axis-chain/utils/gsignercache"
 )
 
 const (

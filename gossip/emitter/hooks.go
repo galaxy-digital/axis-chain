@@ -8,8 +8,8 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/utils/adapters/vecmt2dagidx"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils/adapters/vecmt2dagidx"
 )
 
 // OnNewEpoch should be called after each epoch change, and on startup

@@ -7,8 +7,8 @@ import (
 	base "github.com/galaxy-digital/lachesis-base/eventcheck/epochcheck"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	galaxy "github.com/galaxy-team/axis-chain/galaxy"
-	"github.com/galaxy-team/axis-chain/inter"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 var (

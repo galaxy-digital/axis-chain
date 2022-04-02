@@ -11,9 +11,9 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
-	"github.com/galaxy-team/axis-chain/gossip/gasprice"
-	"github.com/galaxy-team/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/gossip/gasprice"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 var (

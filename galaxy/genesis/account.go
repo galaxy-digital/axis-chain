@@ -9,7 +9,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/kvdb"
 
-	"github.com/galaxy-team/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 type (

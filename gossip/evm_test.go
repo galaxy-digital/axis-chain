@@ -13,9 +13,9 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/stretchr/testify/require"
 
-	"github.com/galaxy-team/axis-chain/gossip/contract/ballot"
-	"github.com/galaxy-team/axis-chain/logger"
-	"github.com/galaxy-team/axis-chain/utils"
+	"github.com/galaxy-digital/axis-chain/gossip/contract/ballot"
+	"github.com/galaxy-digital/axis-chain/logger"
+	"github.com/galaxy-digital/axis-chain/utils"
 )
 
 func BenchmarkBallotTxsProcessing(b *testing.B) {

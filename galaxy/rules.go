@@ -13,14 +13,14 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/evmwriter"
-	"github.com/galaxy-team/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/evmwriter"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 const (
-	MainNetworkID   uint64 = 0x1a
-	TestNetworkID   uint64 = 0x1a1
-	FakeNetworkID   uint64 = 0x1a2
+	MainNetworkID   uint64 = 37
+	TestNetworkID   uint64 = 137
+	FakeNetworkID   uint64 = 237
 	DefaultEventGas uint64 = 28000
 )
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/galaxy-team/axis-chain/cmd/galaxy/launcher"
+	"github.com/galaxy-digital/axis-chain/cmd/galaxy/launcher"
 )
 
 func main() {

@@ -7,8 +7,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/galaxy-team/axis-chain/inter/validatorpk"
-	"github.com/galaxy-team/axis-chain/valkeystore/encryption"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
+	"github.com/galaxy-digital/axis-chain/valkeystore/encryption"
 )
 
 var (

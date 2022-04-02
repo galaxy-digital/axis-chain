@@ -14,18 +14,18 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	galaxy "github.com/galaxy-team/axis-chain/galaxy"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/driver"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/driverauth"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/evmwriter"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/gpos"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/netinit"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/sfc"
-	"github.com/galaxy-team/axis-chain/galaxy/genesisstore"
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/inter/validatorpk"
-	futils "github.com/galaxy-team/axis-chain/utils"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/driver"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/driverauth"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/evmwriter"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/gpos"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/netinit"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/sfc"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesisstore"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
+	futils "github.com/galaxy-digital/axis-chain/utils"
 )
 
 var (
@@ -59,41 +59,21 @@ func MakeGenesisStore() *genesisstore.Store {
 	var validatorAccounts = []ValidatorAccount{
 		// for mainnet
 		{
-			address:   "",
-			validator: "",
+			address:   "0x111118fa5f43538A4Fafc956920C575c29fCED43",
+			validator: "047cf4039d716c107f389b2b7ae1bc3775cf6d4aad3b3ab3f663d8f34bef892fa6397e4dbd60c5205464db38d2578a8201813c281304018b102b7530fc5f4e16ee",
 		},
 		{
-			address:   "",
-			validator: "",
+			address:   "0x2222a13de6d0ab4bfb017e1b29d6a5b430e07574",
+			validator: "04d8597293ef427f5fd03a9ea33b4bd77de037eb43f46553a1f6f57bee71b1b913c3a3bac451bd02b552ce376a07c28b540723acd08d2284b98a90925425b8e88f",
 		},
 		{
-			address:   "",
-			validator: "",
-		},
-		{
-			address:   "",
-			validator: "",
-		},
-		{
-			address:   "",
-			validator: "",
-		},
-		{
-			address:   "",
-			validator: "",
-		},
-		{
-			address:   "",
-			validator: "",
-		},
-		{
-			address:   "",
-			validator: "",
+			address:   "0x3333bfdaf4a1b2f0b748f3a88e3c853d1e2b8f5d",
+			validator: "04b0df54022cf14df39e3caba140a6c83ab17d98055dacd6048c41ecc5ae2ceff164787fa5e1585e2670bd43d9fec86c055e13bc944eded3f90e3bc844c9a4b18c",
 		},
 	}
 
 	var initialAccounts = []string{
-		"",
+		"0xb8B5BE7122f317F86b47778422e277cD91C0B031",
 	}
 	num := len(validatorAccounts)
 

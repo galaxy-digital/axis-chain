@@ -7,7 +7,7 @@ import (
 	"github.com/uber/jaeger-lib/metrics"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-team/axis-chain/tracing"
+	"github.com/galaxy-digital/axis-chain/tracing"
 )
 
 var EnableFlag = cli.BoolFlag{

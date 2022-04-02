@@ -1,4 +1,4 @@
-sfc = web3.axis.contract(abi).at("0xdbac000000000000000000000000000000000000")
+sfc = web3.axis.contract(abi).at("0xeAb1000000000000000000000000000000000000")
 sfc.lastValidatorID()
 sfc.getValidatorID("0x5bc37f132a7De496f202cF6A9E897Eb75C2ba6Ec")
 personal.unlockAccount("0x5bc37f132a7De496f202cF6A9E897Eb75C2ba6Ec", "BX$%$k%jSHeyA#$DJS#hHd$%ahjS", 60)

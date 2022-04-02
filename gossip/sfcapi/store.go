@@ -4,8 +4,8 @@ import (
 	"github.com/galaxy-digital/lachesis-base/kvdb"
 	"github.com/galaxy-digital/lachesis-base/kvdb/table"
 
-	"github.com/galaxy-team/axis-chain/logger"
-	"github.com/galaxy-team/axis-chain/utils/rlpstore"
+	"github.com/galaxy-digital/axis-chain/logger"
+	"github.com/galaxy-digital/axis-chain/utils/rlpstore"
 )
 
 // Store is a node persistent storage working over physical key-value database.

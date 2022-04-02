@@ -17,10 +17,10 @@ import (
 	"github.com/galaxy-digital/lachesis-base/utils/wlru"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/galaxy-team/axis-chain/logger"
-	"github.com/galaxy-team/axis-chain/topicsdb"
-	"github.com/galaxy-team/axis-chain/utils/adapters/kvdb2ethdb"
-	"github.com/galaxy-team/axis-chain/utils/rlpstore"
+	"github.com/galaxy-digital/axis-chain/logger"
+	"github.com/galaxy-digital/axis-chain/topicsdb"
+	"github.com/galaxy-digital/axis-chain/utils/adapters/kvdb2ethdb"
+	"github.com/galaxy-digital/axis-chain/utils/rlpstore"
 )
 
 const nominalSize uint = 1

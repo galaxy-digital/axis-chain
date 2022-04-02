@@ -6,7 +6,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/emitter/ancestor"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-team/axis-chain/utils/piecefunc"
+	"github.com/galaxy-digital/axis-chain/utils/piecefunc"
 )
 
 var (

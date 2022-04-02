@@ -1,9 +1,4 @@
-// export GOPROXY=https://proxy.golang.google.cn
-// $env:GOPROXY = "https://proxy.golang.org,direct"
-// $env:GOPROXY = "https://goproxy.io,direct"
-// $env:GOPROXY = "https://golang.google.cn,direct"
-// go env -w GOPROXY=https://goproxy.cn
-# Axis Galaxy 
+# AXIS galaxy 
 
 EVM-compatible chain secured by the Lachesis consensus algorithm.
 

@@ -10,8 +10,8 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/galaxy-team/axis-chain/integration/makegenesis"
-	"github.com/galaxy-team/axis-chain/inter/validatorpk"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
 )
 
 func TestFakeNetFlag_NonValidator(t *testing.T) {

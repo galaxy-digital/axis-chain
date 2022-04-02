@@ -16,8 +16,8 @@ import (
 	"github.com/galaxy-digital/lachesis-base/utils/simplewlru"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-team/axis-chain/integration"
-	"github.com/galaxy-team/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/integration"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 var (

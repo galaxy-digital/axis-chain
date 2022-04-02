@@ -6,9 +6,9 @@ import (
 
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-team/axis-chain/gossip/emitter"
-	"github.com/galaxy-team/axis-chain/integration/makegenesis"
-	"github.com/galaxy-team/axis-chain/inter/validatorpk"
+	"github.com/galaxy-digital/axis-chain/gossip/emitter"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
 )
 
 var validatorIDFlag = cli.UintFlag{

@@ -3,7 +3,7 @@ package verwatcher
 import (
 	"github.com/galaxy-digital/lachesis-base/kvdb"
 
-	"github.com/galaxy-team/axis-chain/logger"
+	"github.com/galaxy-digital/axis-chain/logger"
 )
 
 // Store is a node persistent storage working over physical key-value database.

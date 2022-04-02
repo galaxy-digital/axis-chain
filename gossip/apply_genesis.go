@@ -10,14 +10,14 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 	"github.com/galaxy-digital/lachesis-base/lachesis"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
-	"github.com/galaxy-team/axis-chain/galaxy"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis"
-	"github.com/galaxy-team/axis-chain/gossip/blockproc"
-	"github.com/galaxy-team/axis-chain/gossip/evmstore"
-	"github.com/galaxy-team/axis-chain/gossip/sfcapi"
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/inter/drivertype"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis"
+	"github.com/galaxy-digital/axis-chain/gossip/blockproc"
+	"github.com/galaxy-digital/axis-chain/gossip/evmstore"
+	"github.com/galaxy-digital/axis-chain/gossip/sfcapi"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter/drivertype"
 )
 
 // ApplyGenesis writes initial state.

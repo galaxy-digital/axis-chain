@@ -35,17 +35,17 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/driver"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/driverauth"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/evmwriter"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/netinit"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/sfc"
-	"github.com/galaxy-team/axis-chain/gossip/contract/driver100"
-	"github.com/galaxy-team/axis-chain/gossip/contract/driverauth100"
-	"github.com/galaxy-team/axis-chain/gossip/contract/netinit100"
-	"github.com/galaxy-team/axis-chain/gossip/contract/sfc100"
-	"github.com/galaxy-team/axis-chain/logger"
-	"github.com/galaxy-team/axis-chain/utils"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/driver"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/driverauth"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/evmwriter"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/netinit"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/sfc"
+	"github.com/galaxy-digital/axis-chain/gossip/contract/driver100"
+	"github.com/galaxy-digital/axis-chain/gossip/contract/driverauth100"
+	"github.com/galaxy-digital/axis-chain/gossip/contract/netinit100"
+	"github.com/galaxy-digital/axis-chain/gossip/contract/sfc100"
+	"github.com/galaxy-digital/axis-chain/logger"
+	"github.com/galaxy-digital/axis-chain/utils"
 )
 
 func TestSFC(t *testing.T) {

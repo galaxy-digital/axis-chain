@@ -13,7 +13,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 	"github.com/galaxy-digital/lachesis-base/kvdb/memorydb"
 
-	"github.com/galaxy-team/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 func TestMedianTimeOnIndex(t *testing.T) {

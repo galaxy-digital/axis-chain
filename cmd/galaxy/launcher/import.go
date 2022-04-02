@@ -24,12 +24,12 @@ import (
 	"github.com/status-im/keycard-go/hexutils"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-team/axis-chain/gossip"
-	"github.com/galaxy-team/axis-chain/gossip/emitter"
-	"github.com/galaxy-team/axis-chain/integration"
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/utils/iodb"
-	"github.com/galaxy-team/axis-chain/utils/ioread"
+	"github.com/galaxy-digital/axis-chain/gossip"
+	"github.com/galaxy-digital/axis-chain/gossip/emitter"
+	"github.com/galaxy-digital/axis-chain/integration"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils/iodb"
+	"github.com/galaxy-digital/axis-chain/utils/ioread"
 )
 
 type restrictedEvmBatch struct {

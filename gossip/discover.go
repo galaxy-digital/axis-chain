@@ -22,7 +22,7 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/enode"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/evmcore"
 )
 
 // enrEntry is the ENR entry which advertises `eth` protocol on the discovery.

@@ -1,4 +1,5 @@
-module github.com/galaxy-team/axis-chain
+module github.com/galaxy-digital/axis-chain
+
 
 go 1.14
 
@@ -11,7 +12,6 @@ require (
 	github.com/deckarep/golang-set v1.7.1
 	github.com/docker/docker v1.13.1
 	github.com/dvyukov/go-fuzz v0.0.0-20201127111758-49e582c6c23d
-	github.com/ethereum/go-ethereum v1.9.22
 	github.com/evalphobia/logrus_sentry v0.8.2
 	github.com/fjl/memsize v0.0.0-20190710130421-bcb5799ab5e5
 	github.com/galaxy-digital/lachesis-base v0.1.0

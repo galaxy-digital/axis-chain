@@ -12,7 +12,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-team/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 // DelEvent deletes event.

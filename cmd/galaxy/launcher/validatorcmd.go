@@ -13,9 +13,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-team/axis-chain/inter/validatorpk"
-	"github.com/galaxy-team/axis-chain/valkeystore"
-	"github.com/galaxy-team/axis-chain/valkeystore/encryption"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
+	"github.com/galaxy-digital/axis-chain/valkeystore"
+	"github.com/galaxy-digital/axis-chain/valkeystore/encryption"
 )
 
 var (

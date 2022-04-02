@@ -3,7 +3,7 @@ package eventcheck
 import (
 	base "github.com/galaxy-digital/lachesis-base/eventcheck"
 
-	"github.com/galaxy-team/axis-chain/eventcheck/epochcheck"
+	"github.com/galaxy-digital/axis-chain/eventcheck/epochcheck"
 )
 
 var (

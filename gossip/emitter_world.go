@@ -8,11 +8,11 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/utils/wgmutex"
-	"github.com/galaxy-team/axis-chain/valkeystore"
-	"github.com/galaxy-team/axis-chain/vecmt"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils/wgmutex"
+	"github.com/galaxy-digital/axis-chain/valkeystore"
+	"github.com/galaxy-digital/axis-chain/vecmt"
 )
 
 // emitterWorld implements emitter.World interface

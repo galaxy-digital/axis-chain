@@ -5,7 +5,7 @@ import (
 
 	base "github.com/galaxy-digital/lachesis-base/eventcheck/parentscheck"
 
-	"github.com/galaxy-team/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 var (

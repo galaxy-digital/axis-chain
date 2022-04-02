@@ -16,11 +16,11 @@ import (
 	"github.com/galaxy-digital/lachesis-base/kvdb"
 	"github.com/galaxy-digital/lachesis-base/kvdb/flushable"
 
-	galaxy "github.com/galaxy-team/axis-chain/galaxy"
-	"github.com/galaxy-team/axis-chain/galaxy/genesisstore"
-	"github.com/galaxy-team/axis-chain/gossip"
-	"github.com/galaxy-team/axis-chain/utils/adapters/vecmt2dagidx"
-	"github.com/galaxy-team/axis-chain/vecmt"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesisstore"
+	"github.com/galaxy-digital/axis-chain/gossip"
+	"github.com/galaxy-digital/axis-chain/utils/adapters/vecmt2dagidx"
+	"github.com/galaxy-digital/axis-chain/vecmt"
 )
 
 // GenesisMismatchError is raised when trying to overwrite an existing

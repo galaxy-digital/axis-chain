@@ -7,9 +7,9 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-team/axis-chain/galaxy/genesis"
-	"github.com/galaxy-team/axis-chain/galaxy/genesis/gpos"
-	"github.com/galaxy-team/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesis/gpos"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 type Genesis struct {

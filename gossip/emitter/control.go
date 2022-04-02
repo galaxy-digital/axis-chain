@@ -7,8 +7,8 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/utils/piecefunc"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils/piecefunc"
 )
 
 func scalarUpdMetric(diff idx.Event, weight pos.Weight, totalWeight pos.Weight) ancestor.Metric {

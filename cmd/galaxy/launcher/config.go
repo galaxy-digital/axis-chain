@@ -24,16 +24,16 @@ import (
 	"github.com/naoina/toml"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
+	"github.com/galaxy-digital/axis-chain/evmcore"
 
-	galaxy "github.com/galaxy-team/axis-chain/galaxy"
-	"github.com/galaxy-team/axis-chain/galaxy/genesisstore"
-	"github.com/galaxy-team/axis-chain/gossip"
-	"github.com/galaxy-team/axis-chain/gossip/gasprice"
-	"github.com/galaxy-team/axis-chain/integration"
-	"github.com/galaxy-team/axis-chain/integration/makegenesis"
-	futils "github.com/galaxy-team/axis-chain/utils"
-	"github.com/galaxy-team/axis-chain/vecmt"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/galaxy/genesisstore"
+	"github.com/galaxy-digital/axis-chain/gossip"
+	"github.com/galaxy-digital/axis-chain/gossip/gasprice"
+	"github.com/galaxy-digital/axis-chain/integration"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
+	futils "github.com/galaxy-digital/axis-chain/utils"
+	"github.com/galaxy-digital/axis-chain/vecmt"
 )
 
 var (
@@ -91,7 +91,7 @@ var (
 	}
 
 	AllowedGalaxyGenesisHashes = map[uint64]hash.Hash{
-		galaxy.MainNetworkID: hash.HexToHash("0x9510812d06bc3ea1097ecded6500e795b8b376f6f22e738065f7b6c6b218a09e"), // real 0xa97be35f423207258c18624416d67950933456c9a549585b9517c2d81c42a0ce
+		galaxy.MainNetworkID: hash.HexToHash("0xb27b158d613635c56e1e5973e6b81fcb11aca25f0eca0ff80f7e952471b7488e"), // real 0xa97be35f423207258c18624416d67950933456c9a549585b9517c2d81c42a0ce
 		galaxy.TestNetworkID: hash.HexToHash("0x322f536c852ab9f8bc2cdc8fb15d5216d9cc56a0d9136f00b58292b159a5142a"), // real 0x0774ccb0a820e486c3f435b805240f0ab8ceb79bf19af9617b548a28ce6ff9d2
 	}
 )

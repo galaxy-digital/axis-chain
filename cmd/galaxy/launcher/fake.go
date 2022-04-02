@@ -9,7 +9,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-team/axis-chain/integration/makegenesis"
+	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
 )
 
 // FakeNetFlag enables special testnet, where validators are automatically created

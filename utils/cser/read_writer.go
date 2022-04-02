@@ -4,8 +4,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/galaxy-team/axis-chain/utils/bits"
-	"github.com/galaxy-team/axis-chain/utils/fast"
+	"github.com/galaxy-digital/axis-chain/utils/bits"
+	"github.com/galaxy-digital/axis-chain/utils/fast"
 )
 
 var (

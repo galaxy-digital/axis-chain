@@ -34,7 +34,7 @@ import (
 	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/ethereum/go-ethereum/params"
 
-	"github.com/galaxy-team/axis-chain/utils/gsignercache"
+	"github.com/galaxy-digital/axis-chain/utils/gsignercache"
 )
 
 const (

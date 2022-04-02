@@ -10,7 +10,7 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-team/axis-chain/gossip"
+	"github.com/galaxy-digital/axis-chain/gossip"
 )
 
 var (

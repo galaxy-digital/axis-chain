@@ -1,8 +1,8 @@
 package cser
 
 import (
-	"github.com/galaxy-team/axis-chain/utils/bits"
-	"github.com/galaxy-team/axis-chain/utils/fast"
+	"github.com/galaxy-digital/axis-chain/utils/bits"
+	"github.com/galaxy-digital/axis-chain/utils/fast"
 )
 
 func MarshalBinaryAdapter(marshalCser func(*Writer) error) ([]byte, error) {

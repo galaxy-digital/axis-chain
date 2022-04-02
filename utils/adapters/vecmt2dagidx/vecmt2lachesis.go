@@ -7,7 +7,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/vecfc"
 
-	"github.com/galaxy-team/axis-chain/vecmt"
+	"github.com/galaxy-digital/axis-chain/vecmt"
 )
 
 type Adapter struct {

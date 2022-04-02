@@ -13,7 +13,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/galaxy-team/axis-chain/cmd/cmdtest"
+	"github.com/galaxy-digital/axis-chain/cmd/cmdtest"
 )
 
 func tmpdir(t *testing.T) string {

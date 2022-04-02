@@ -1,12 +1,12 @@
 package eventcheck
 
 import (
-	"github.com/galaxy-team/axis-chain/eventcheck/basiccheck"
-	"github.com/galaxy-team/axis-chain/eventcheck/epochcheck"
-	"github.com/galaxy-team/axis-chain/eventcheck/gaspowercheck"
-	"github.com/galaxy-team/axis-chain/eventcheck/heavycheck"
-	"github.com/galaxy-team/axis-chain/eventcheck/parentscheck"
-	"github.com/galaxy-team/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/eventcheck/basiccheck"
+	"github.com/galaxy-digital/axis-chain/eventcheck/epochcheck"
+	"github.com/galaxy-digital/axis-chain/eventcheck/gaspowercheck"
+	"github.com/galaxy-digital/axis-chain/eventcheck/heavycheck"
+	"github.com/galaxy-digital/axis-chain/eventcheck/parentscheck"
+	"github.com/galaxy-digital/axis-chain/inter"
 )
 
 // Checkers is collection of all the checkers

@@ -6,7 +6,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 
-	"github.com/galaxy-team/axis-chain/inter/validatorpk"
+	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
 )
 
 var (

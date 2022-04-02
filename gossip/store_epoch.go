@@ -14,7 +14,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/kvdb/skiperrors"
 	"github.com/galaxy-digital/lachesis-base/kvdb/table"
 
-	"github.com/galaxy-team/axis-chain/logger"
+	"github.com/galaxy-digital/axis-chain/logger"
 )
 
 var (

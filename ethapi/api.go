@@ -46,10 +46,10 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/tyler-smith/go-bip39"
 
-	"github.com/galaxy-team/axis-chain/evmcore"
-	galaxy "github.com/galaxy-team/axis-chain/galaxy"
-	"github.com/galaxy-team/axis-chain/inter"
-	"github.com/galaxy-team/axis-chain/utils/gsignercache"
+	"github.com/galaxy-digital/axis-chain/evmcore"
+	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/axis-chain/utils/gsignercache"
 )
 
 var (
