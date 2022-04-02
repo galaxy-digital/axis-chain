@@ -34,9 +34,9 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 
-	"github.com/galaxy-digital/axis-chain/evmcore"
-	"github.com/galaxy-digital/axis-chain/gossip/sfcapi"
-	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
+	"github.com/galaxy-digital/relativity-chain/gossip/sfcapi"
+	"github.com/galaxy-digital/relativity-chain/inter"
 )
 
 // PeerProgress is synchronization status of a peer
@@ -174,25 +174,25 @@ func GetAPIs(apiBackend Backend) []rpc.API {
 		},
 	}
 
-	// NOTE: eth-namespace is doubled as axis-namespace for branding purpose
+	// NOTE: eth-namespace is doubled as rlv-namespace for branding purpose
 	double := []rpc.API{
 		{
-			Namespace: "axis",
+			Namespace: "rlv",
 			Version:   "1.0",
 			Service:   NewPublicEthereumAPI(apiBackend),
 			Public:    true,
 		}, {
-			Namespace: "axis",
+			Namespace: "rlv",
 			Version:   "1.0",
 			Service:   NewPublicBlockChainAPI(apiBackend),
 			Public:    true,
 		}, {
-			Namespace: "axis",
+			Namespace: "rlv",
 			Version:   "1.0",
 			Service:   NewPublicTransactionPoolAPI(apiBackend, nonceLock),
 			Public:    true,
 		}, {
-			Namespace: "axis",
+			Namespace: "rlv",
 			Version:   "1.0",
 			Service:   NewPublicAccountAPI(apiBackend.AccountManager()),
 			Public:    true,

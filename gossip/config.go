@@ -14,13 +14,13 @@ import (
 	"github.com/galaxy-digital/lachesis-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/galaxy-digital/axis-chain/eventcheck/heavycheck"
-	"github.com/galaxy-digital/axis-chain/evmcore"
-	"github.com/galaxy-digital/axis-chain/gossip/blockproc/verwatcher"
-	"github.com/galaxy-digital/axis-chain/gossip/emitter"
-	"github.com/galaxy-digital/axis-chain/gossip/evmstore"
-	"github.com/galaxy-digital/axis-chain/gossip/filters"
-	"github.com/galaxy-digital/axis-chain/gossip/gasprice"
+	"github.com/galaxy-digital/relativity-chain/eventcheck/heavycheck"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
+	"github.com/galaxy-digital/relativity-chain/gossip/blockproc/verwatcher"
+	"github.com/galaxy-digital/relativity-chain/gossip/emitter"
+	"github.com/galaxy-digital/relativity-chain/gossip/evmstore"
+	"github.com/galaxy-digital/relativity-chain/gossip/filters"
+	"github.com/galaxy-digital/relativity-chain/gossip/gasprice"
 )
 
 const nominalSize uint = 1
@@ -184,7 +184,7 @@ func DefaultConfig(scale cachescale.Func) Config {
 		RPCLogsBloom: true,
 
 		RPCGasCap:   25000000,
-		RPCTxFeeCap: 100, // 100 AXIS
+		RPCTxFeeCap: 100, // 100 RLV
 	}
 	cfg.Protocol.Processor.EventsBufferLimit.Num = idx.Event(cfg.Protocol.StreamLeecher.Session.ParallelChunksDownload)*cfg.Protocol.StreamLeecher.Session.DefaultChunkSize.Num + softLimitItems
 	cfg.Protocol.Processor.EventsBufferLimit.Size = uint64(cfg.Protocol.StreamLeecher.Session.ParallelChunksDownload)*cfg.Protocol.StreamLeecher.Session.DefaultChunkSize.Size + 8*opt.MiB

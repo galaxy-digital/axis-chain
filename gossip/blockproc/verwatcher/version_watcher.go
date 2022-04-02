@@ -8,11 +8,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/galaxy-digital/axis-chain/galaxy/genesis/driver"
-	"github.com/galaxy-digital/axis-chain/galaxy/genesis/driver/driverpos"
-	"github.com/galaxy-digital/axis-chain/logger"
-	"github.com/galaxy-digital/axis-chain/utils/errlock"
-	"github.com/galaxy-digital/axis-chain/version"
+	"github.com/galaxy-digital/relativity-chain/galaxy/genesis/driver"
+	"github.com/galaxy-digital/relativity-chain/galaxy/genesis/driver/driverpos"
+	"github.com/galaxy-digital/relativity-chain/logger"
+	"github.com/galaxy-digital/relativity-chain/utils/errlock"
+	"github.com/galaxy-digital/relativity-chain/version"
 )
 
 type VerWarcher struct {

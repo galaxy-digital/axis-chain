@@ -10,7 +10,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/dag"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-digital/axis-chain/utils/cser"
+	"github.com/galaxy-digital/relativity-chain/utils/cser"
 )
 
 var (

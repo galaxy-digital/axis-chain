@@ -8,9 +8,9 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/kvdb"
 
-	"github.com/galaxy-digital/axis-chain/inter"
-	"github.com/galaxy-digital/axis-chain/utils/concurrent"
-	"github.com/galaxy-digital/axis-chain/utils/migration"
+	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/utils/concurrent"
+	"github.com/galaxy-digital/relativity-chain/utils/migration"
 )
 
 func isEmptyDB(db kvdb.Iteratee) bool {

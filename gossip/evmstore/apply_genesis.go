@@ -5,8 +5,8 @@ import (
 	"github.com/galaxy-digital/lachesis-base/kvdb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/galaxy-digital/axis-chain/evmcore"
-	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
+	galaxy "github.com/galaxy-digital/relativity-chain/galaxy"
 )
 
 func (s *Store) applyRawEvmItems(db kvdb.Iteratee) (err error) {

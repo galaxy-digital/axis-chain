@@ -35,17 +35,17 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/galaxy-digital/axis-chain/galaxy/genesis/driver"
-	"github.com/galaxy-digital/axis-chain/galaxy/genesis/driverauth"
-	"github.com/galaxy-digital/axis-chain/galaxy/genesis/evmwriter"
-	"github.com/galaxy-digital/axis-chain/galaxy/genesis/netinit"
-	"github.com/galaxy-digital/axis-chain/galaxy/genesis/sfc"
-	"github.com/galaxy-digital/axis-chain/gossip/contract/driver100"
-	"github.com/galaxy-digital/axis-chain/gossip/contract/driverauth100"
-	"github.com/galaxy-digital/axis-chain/gossip/contract/netinit100"
-	"github.com/galaxy-digital/axis-chain/gossip/contract/sfc100"
-	"github.com/galaxy-digital/axis-chain/logger"
-	"github.com/galaxy-digital/axis-chain/utils"
+	"github.com/galaxy-digital/relativity-chain/galaxy/genesis/driver"
+	"github.com/galaxy-digital/relativity-chain/galaxy/genesis/driverauth"
+	"github.com/galaxy-digital/relativity-chain/galaxy/genesis/evmwriter"
+	"github.com/galaxy-digital/relativity-chain/galaxy/genesis/netinit"
+	"github.com/galaxy-digital/relativity-chain/galaxy/genesis/sfc"
+	"github.com/galaxy-digital/relativity-chain/gossip/contract/driver100"
+	"github.com/galaxy-digital/relativity-chain/gossip/contract/driverauth100"
+	"github.com/galaxy-digital/relativity-chain/gossip/contract/netinit100"
+	"github.com/galaxy-digital/relativity-chain/gossip/contract/sfc100"
+	"github.com/galaxy-digital/relativity-chain/logger"
+	"github.com/galaxy-digital/relativity-chain/utils"
 )
 
 func TestSFC(t *testing.T) {
@@ -140,7 +140,7 @@ func TestSFC(t *testing.T) {
 
 			// create new
 			rr := env.ApplyBlock(nextEpoch,
-				env.Contract(admin, utils.ToAxis(0), sfc100.ContractBin),
+				env.Contract(admin, utils.ToRlv(0), sfc100.ContractBin),
 			)
 			require.Equal(1, rr.Len())
 			require.Equal(types.ReceiptStatusSuccessful, rr[0].Status)
@@ -172,7 +172,7 @@ func TestSFC(t *testing.T) {
 		// create new
 		anyContractBin := driver100.ContractBin
 		rr := env.ApplyBlock(nextEpoch,
-			env.Contract(admin, utils.ToAxis(0), anyContractBin),
+			env.Contract(admin, utils.ToRlv(0), anyContractBin),
 		)
 		require.Equal(1, rr.Len())
 		require.Equal(types.ReceiptStatusSuccessful, rr[0].Status)
@@ -204,7 +204,7 @@ func cicleTransfers(t *testing.T, env *testEnv, count uint64) {
 		for i := range txs {
 			from := (i)%accounts + 1
 			to := (i+1)%accounts + 1
-			txs[i] = env.Transfer(from, to, utils.ToAxis(100))
+			txs[i] = env.Transfer(from, to, utils.ToRlv(100))
 		}
 
 		rr := env.ApplyBlock(sameEpoch, txs...)

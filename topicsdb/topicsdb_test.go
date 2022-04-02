@@ -13,7 +13,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/kvdb/memorydb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/galaxy-digital/axis-chain/logger"
+	"github.com/galaxy-digital/relativity-chain/logger"
 )
 
 // FindInBlocksAsync returns all log records of block range by pattern. 1st pattern element is an address.

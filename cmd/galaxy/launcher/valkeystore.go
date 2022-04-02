@@ -12,8 +12,8 @@ import (
 	"github.com/ethereum/go-ethereum/node"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
-	"github.com/galaxy-digital/axis-chain/valkeystore"
+	"github.com/galaxy-digital/relativity-chain/inter/validatorpk"
+	"github.com/galaxy-digital/relativity-chain/valkeystore"
 )
 
 func addFakeValidatorKey(ctx *cli.Context, key *ecdsa.PrivateKey, pubkey validatorpk.PubKey, valKeystore valkeystore.RawKeystoreI) {

@@ -6,7 +6,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/common/bigendian"
 	"github.com/galaxy-digital/lachesis-base/kvdb"
 
-	"github.com/galaxy-digital/axis-chain/utils/ioread"
+	"github.com/galaxy-digital/relativity-chain/utils/ioread"
 )
 
 func Write(writer io.Writer, db kvdb.Iteratee) error {

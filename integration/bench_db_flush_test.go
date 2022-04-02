@@ -15,18 +15,18 @@ import (
 	"github.com/galaxy-digital/lachesis-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/galaxy-digital/axis-chain/galaxy/genesisstore"
-	"github.com/galaxy-digital/axis-chain/gossip"
-	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
-	"github.com/galaxy-digital/axis-chain/inter"
-	"github.com/galaxy-digital/axis-chain/utils"
-	"github.com/galaxy-digital/axis-chain/vecmt"
+	"github.com/galaxy-digital/relativity-chain/galaxy/genesisstore"
+	"github.com/galaxy-digital/relativity-chain/gossip"
+	"github.com/galaxy-digital/relativity-chain/integration/makegenesis"
+	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/utils"
+	"github.com/galaxy-digital/relativity-chain/vecmt"
 )
 
 func BenchmarkFlushDBs(b *testing.B) {
 	rawProducer, dir := dbProducer("flush_bench")
 	defer os.RemoveAll(dir)
-	genStore := makegenesis.FakeGenesisStore(1, utils.ToAxis(1), utils.ToAxis(1))
+	genStore := makegenesis.FakeGenesisStore(1, utils.ToRlv(1), utils.ToRlv(1))
 	_, _, store, s2, s3, _ := MakeEngine(rawProducer, InputGenesis{
 		Hash: genStore.Hash(),
 		Read: func(store *genesisstore.Store) error {

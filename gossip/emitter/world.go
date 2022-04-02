@@ -12,11 +12,11 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 
-	"github.com/galaxy-digital/axis-chain/evmcore"
-	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
-	"github.com/galaxy-digital/axis-chain/inter"
-	"github.com/galaxy-digital/axis-chain/valkeystore"
-	"github.com/galaxy-digital/axis-chain/vecmt"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
+	galaxy "github.com/galaxy-digital/relativity-chain/galaxy"
+	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/valkeystore"
+	"github.com/galaxy-digital/relativity-chain/vecmt"
 )
 
 var (

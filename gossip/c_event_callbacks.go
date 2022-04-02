@@ -10,12 +10,12 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/galaxy-digital/lachesis-base/inter/dag"
 
-	"github.com/galaxy-digital/axis-chain/eventcheck"
-	"github.com/galaxy-digital/axis-chain/eventcheck/epochcheck"
-	"github.com/galaxy-digital/axis-chain/gossip/blockproc"
-	"github.com/galaxy-digital/axis-chain/gossip/emitter"
-	"github.com/galaxy-digital/axis-chain/inter"
-	"github.com/galaxy-digital/axis-chain/utils/concurrent"
+	"github.com/galaxy-digital/relativity-chain/eventcheck"
+	"github.com/galaxy-digital/relativity-chain/eventcheck/epochcheck"
+	"github.com/galaxy-digital/relativity-chain/gossip/blockproc"
+	"github.com/galaxy-digital/relativity-chain/gossip/emitter"
+	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/utils/concurrent"
 )
 
 var (

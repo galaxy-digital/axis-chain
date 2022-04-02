@@ -13,8 +13,8 @@ import (
 	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 
-	"github.com/galaxy-digital/axis-chain/galaxy/genesis/evmwriter"
-	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/galaxy/genesis/evmwriter"
+	"github.com/galaxy-digital/relativity-chain/inter"
 )
 
 const (

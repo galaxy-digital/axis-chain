@@ -7,7 +7,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/stretchr/testify/require"
 
-	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
+	galaxy "github.com/galaxy-digital/relativity-chain/galaxy"
 )
 
 type TestBackend struct {

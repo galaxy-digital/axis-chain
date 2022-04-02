@@ -8,8 +8,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/galaxy-digital/axis-chain/logger"
-	"github.com/galaxy-digital/axis-chain/utils"
+	"github.com/galaxy-digital/relativity-chain/logger"
+	"github.com/galaxy-digital/relativity-chain/utils"
 )
 
 func TestConsensusCallback(t *testing.T) {
@@ -35,7 +35,7 @@ func TestConsensusCallback(t *testing.T) {
 		for i := range txs {
 			from := (i)%accounts + 1
 			to := (i+1)%accounts + 1
-			txs[i] = env.Transfer(from, to, utils.ToAxis(100))
+			txs[i] = env.Transfer(from, to, utils.ToRlv(100))
 		}
 		tm := sameEpoch
 		if n%10 == 0 {

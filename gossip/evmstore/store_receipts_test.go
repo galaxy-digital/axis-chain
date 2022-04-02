@@ -8,7 +8,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/galaxy-digital/axis-chain/logger"
+	"github.com/galaxy-digital/relativity-chain/logger"
 )
 
 func equalStorageReceipts(t *testing.T, expect, got types.Receipts) {

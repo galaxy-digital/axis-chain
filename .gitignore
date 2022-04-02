@@ -1,7 +1,7 @@
 # IDE
 .vscode
 .idea/
-/build
+
 # Go prof output
 *.prof
 
@@ -16,7 +16,7 @@ fuzzing/
 # Build output
 build
 dist
-install.*.md
+TEST.md
 # Dependencies
 vendor
 glide.lock

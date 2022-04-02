@@ -1,8 +1,8 @@
 package eventmodule
 
 import (
-	"github.com/galaxy-digital/axis-chain/gossip/blockproc"
-	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/gossip/blockproc"
+	"github.com/galaxy-digital/relativity-chain/inter"
 )
 
 type ValidatorEventsModule struct{}

@@ -13,9 +13,9 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/stretchr/testify/require"
 
-	"github.com/galaxy-digital/axis-chain/gossip/contract/ballot"
-	"github.com/galaxy-digital/axis-chain/logger"
-	"github.com/galaxy-digital/axis-chain/utils"
+	"github.com/galaxy-digital/relativity-chain/gossip/contract/ballot"
+	"github.com/galaxy-digital/relativity-chain/logger"
+	"github.com/galaxy-digital/relativity-chain/utils"
 )
 
 func BenchmarkBallotTxsProcessing(b *testing.B) {
@@ -54,7 +54,7 @@ func BenchmarkBallotTxsProcessing(b *testing.B) {
 
 	// Init accounts
 	for i := 2; i <= count; i++ {
-		tx := env.Transfer(1, i, utils.ToAxis(10))
+		tx := env.Transfer(1, i, utils.ToRlv(10))
 		require.NoError(err)
 		txs = append(txs, tx)
 		if len(txs) > 2 {

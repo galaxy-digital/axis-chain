@@ -3,8 +3,8 @@ package valkeystore
 import (
 	"sync"
 
-	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
-	"github.com/galaxy-digital/axis-chain/valkeystore/encryption"
+	"github.com/galaxy-digital/relativity-chain/inter/validatorpk"
+	"github.com/galaxy-digital/relativity-chain/valkeystore/encryption"
 )
 
 type SyncedKeystore struct {

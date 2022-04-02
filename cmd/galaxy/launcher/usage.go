@@ -25,8 +25,8 @@ import (
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-digital/axis-chain/debug"
-	"github.com/galaxy-digital/axis-chain/flags"
+	"github.com/galaxy-digital/relativity-chain/debug"
+	"github.com/galaxy-digital/relativity-chain/flags"
 )
 
 // AppHelpFlagGroups is the application flags, grouped by functionality.

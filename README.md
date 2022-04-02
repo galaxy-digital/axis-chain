@@ -1,4 +1,4 @@
-# AXIS galaxy 
+# RLV galaxy 
 
 EVM-compatible chain secured by the Lachesis consensus algorithm.
 
@@ -94,27 +94,27 @@ go test ./...
 
 If everything goes well, it should output something along these lines:
 ```
-ok  	github.com/galaxy-digital/axis-chain/app	0.033s
-?   	github.com/galaxy-digital/axis-chain/cmd/cmdtest	[no test files]
-ok  	github.com/galaxy-digital/axis-chain/cmd/galaxy	13.890s
-?   	github.com/galaxy-digital/axis-chain/cmd/galaxy/metrics	[no test files]
-?   	github.com/galaxy-digital/axis-chain/cmd/galaxy/tracing	[no test files]
-?   	github.com/galaxy-digital/axis-chain/crypto	[no test files]
-?   	github.com/galaxy-digital/axis-chain/debug	[no test files]
-?   	github.com/galaxy-digital/axis-chain/ethapi	[no test files]
-?   	github.com/galaxy-digital/axis-chain/eventcheck	[no test files]
-?   	github.com/galaxy-digital/axis-chain/eventcheck/basiccheck	[no test files]
-?   	github.com/galaxy-digital/axis-chain/eventcheck/gaspowercheck	[no test files]
-?   	github.com/galaxy-digital/axis-chain/eventcheck/heavycheck	[no test files]
-?   	github.com/galaxy-digital/axis-chain/eventcheck/parentscheck	[no test files]
-ok  	github.com/galaxy-digital/axis-chain/evmcore	6.322s
-?   	github.com/galaxy-digital/axis-chain/gossip	[no test files]
-?   	github.com/galaxy-digital/axis-chain/gossip/emitter	[no test files]
-ok  	github.com/galaxy-digital/axis-chain/gossip/filters	1.250s
-?   	github.com/galaxy-digital/axis-chain/gossip/gasprice	[no test files]
-?   	github.com/galaxy-digital/axis-chain/gossip/occuredtxs	[no test files]
-?   	github.com/galaxy-digital/axis-chain/gossip/piecefunc	[no test files]
-ok  	github.com/galaxy-digital/axis-chain/integration	21.640s
+ok  	github.com/galaxy-foundation/go-galaxy/app	0.033s
+?   	github.com/galaxy-foundation/go-galaxy/cmd/cmdtest	[no test files]
+ok  	github.com/galaxy-foundation/go-galaxy/cmd/galaxy	13.890s
+?   	github.com/galaxy-foundation/go-galaxy/cmd/galaxy/metrics	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/cmd/galaxy/tracing	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/crypto	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/debug	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/ethapi	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/eventcheck	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/eventcheck/basiccheck	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/eventcheck/gaspowercheck	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/eventcheck/heavycheck	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/eventcheck/parentscheck	[no test files]
+ok  	github.com/galaxy-foundation/go-galaxy/evmcore	6.322s
+?   	github.com/galaxy-foundation/go-galaxy/gossip	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/gossip/emitter	[no test files]
+ok  	github.com/galaxy-foundation/go-galaxy/gossip/filters	1.250s
+?   	github.com/galaxy-foundation/go-galaxy/gossip/gasprice	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/gossip/occuredtxs	[no test files]
+?   	github.com/galaxy-foundation/go-galaxy/gossip/piecefunc	[no test files]
+ok  	github.com/galaxy-foundation/go-galaxy/integration	21.640s
 ```
 
 Also it is tested with [fuzzing](./FUZZING.md).

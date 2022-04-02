@@ -6,7 +6,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 
-	"github.com/galaxy-digital/axis-chain/utils/piecefunc"
+	"github.com/galaxy-digital/relativity-chain/utils/piecefunc"
 )
 
 const (

@@ -32,7 +32,7 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

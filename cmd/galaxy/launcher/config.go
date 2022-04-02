@@ -24,16 +24,16 @@ import (
 	"github.com/naoina/toml"
 	"gopkg.in/urfave/cli.v1"
 
-	"github.com/galaxy-digital/axis-chain/evmcore"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
 
-	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
-	"github.com/galaxy-digital/axis-chain/galaxy/genesisstore"
-	"github.com/galaxy-digital/axis-chain/gossip"
-	"github.com/galaxy-digital/axis-chain/gossip/gasprice"
-	"github.com/galaxy-digital/axis-chain/integration"
-	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
-	futils "github.com/galaxy-digital/axis-chain/utils"
-	"github.com/galaxy-digital/axis-chain/vecmt"
+	galaxy "github.com/galaxy-digital/relativity-chain/galaxy"
+	"github.com/galaxy-digital/relativity-chain/galaxy/genesisstore"
+	"github.com/galaxy-digital/relativity-chain/gossip"
+	"github.com/galaxy-digital/relativity-chain/gossip/gasprice"
+	"github.com/galaxy-digital/relativity-chain/integration"
+	"github.com/galaxy-digital/relativity-chain/integration/makegenesis"
+	futils "github.com/galaxy-digital/relativity-chain/utils"
+	"github.com/galaxy-digital/relativity-chain/vecmt"
 )
 
 var (
@@ -81,18 +81,18 @@ var (
 
 	RPCGlobalGasCapFlag = cli.Uint64Flag{
 		Name:  "rpc.gascap",
-		Usage: "Sets a cap on gas that can be used in axis_call/estimateGas (0=infinite)",
+		Usage: "Sets a cap on gas that can be used in rlv_call/estimateGas (0=infinite)",
 		Value: gossip.DefaultConfig(cachescale.Identity).RPCGasCap,
 	}
 	RPCGlobalTxFeeCapFlag = cli.Float64Flag{
 		Name:  "rpc.txfeecap",
-		Usage: "Sets a cap on transaction fee (in AXIS) that can be sent via the RPC APIs (0 = no cap)",
+		Usage: "Sets a cap on transaction fee (in RLV) that can be sent via the RPC APIs (0 = no cap)",
 		Value: gossip.DefaultConfig(cachescale.Identity).RPCTxFeeCap,
 	}
 
 	AllowedGalaxyGenesisHashes = map[uint64]hash.Hash{
-		galaxy.MainNetworkID: hash.HexToHash("0xdb2699b1bede525dced741496ff53a9e4b2d39d1a3857da2cddda2c010d7e696"), // real 0xa97be35f423207258c18624416d67950933456c9a549585b9517c2d81c42a0ce
-		galaxy.TestNetworkID: hash.HexToHash("0x18f2b9f4871036337033be8882cf4d64f2f490c8113ece775f23b70ff359de56"), // real 0x0774ccb0a820e486c3f435b805240f0ab8ceb79bf19af9617b548a28ce6ff9d2
+		galaxy.MainNetworkID: hash.HexToHash("0xb27b158d613635c56e1e5973e6b81fcb11aca25f0eca0ff80f7e952471b7488e"), // real 0xa97be35f423207258c18624416d67950933456c9a549585b9517c2d81c42a0ce
+		galaxy.TestNetworkID: hash.HexToHash("0x322f536c852ab9f8bc2cdc8fb15d5216d9cc56a0d9136f00b58292b159a5142a"), // real 0x0774ccb0a820e486c3f435b805240f0ab8ceb79bf19af9617b548a28ce6ff9d2
 	}
 )
 
@@ -166,7 +166,7 @@ func getGalaxyGenesis(ctx *cli.Context) integration.InputGenesis {
 		if err != nil {
 			log.Crit("Invalid flag", "flag", FakeNetFlag.Name, "err", err)
 		}
-		fakeGenesisStore := makegenesis.FakeGenesisStore(num, futils.ToAxis(10000000000), futils.ToAxis(5000000))
+		fakeGenesisStore := makegenesis.FakeGenesisStore(num, futils.ToRlv(10000000000), futils.ToRlv(5000000))
 		genesis = integration.InputGenesis{
 			Hash: fakeGenesisStore.Hash(),
 			Read: func(store *genesisstore.Store) error {
@@ -396,8 +396,8 @@ func defaultNodeConfig() node.Config {
 	cfg := NodeDefaultConfig
 	cfg.Name = clientIdentifier
 	cfg.Version = params.VersionWithCommit(gitCommit, gitDate)
-	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "axis", "dag", "sfc", "abft", "web3")
-	cfg.WSModules = append(cfg.WSModules, "eth", "axis", "dag", "sfc", "abft", "web3")
+	cfg.HTTPModules = append(cfg.HTTPModules, "eth", "rlv", "dag", "sfc", "abft", "web3")
+	cfg.WSModules = append(cfg.WSModules, "eth", "rlv", "dag", "sfc", "abft", "web3")
 	cfg.IPCPath = "galaxy.ipc"
 	cfg.DataDir = DefaultDataDir()
 	return cfg

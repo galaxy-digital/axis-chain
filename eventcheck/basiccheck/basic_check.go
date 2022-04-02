@@ -7,8 +7,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	base "github.com/galaxy-digital/lachesis-base/eventcheck/basiccheck"
 
-	"github.com/galaxy-digital/axis-chain/evmcore"
-	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
+	"github.com/galaxy-digital/relativity-chain/inter"
 )
 
 var (

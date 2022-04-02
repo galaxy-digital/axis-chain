@@ -23,30 +23,30 @@ import (
 	"github.com/galaxy-digital/lachesis-base/lachesis"
 	"github.com/galaxy-digital/lachesis-base/utils/workers"
 
-	"github.com/galaxy-digital/axis-chain/ethapi"
-	"github.com/galaxy-digital/axis-chain/eventcheck"
-	"github.com/galaxy-digital/axis-chain/eventcheck/basiccheck"
-	"github.com/galaxy-digital/axis-chain/eventcheck/epochcheck"
-	"github.com/galaxy-digital/axis-chain/eventcheck/gaspowercheck"
-	"github.com/galaxy-digital/axis-chain/eventcheck/heavycheck"
-	"github.com/galaxy-digital/axis-chain/eventcheck/parentscheck"
-	"github.com/galaxy-digital/axis-chain/evmcore"
-	"github.com/galaxy-digital/axis-chain/galaxy"
-	"github.com/galaxy-digital/axis-chain/gossip/blockproc"
-	"github.com/galaxy-digital/axis-chain/gossip/blockproc/drivermodule"
-	"github.com/galaxy-digital/axis-chain/gossip/blockproc/eventmodule"
-	"github.com/galaxy-digital/axis-chain/gossip/blockproc/evmmodule"
-	"github.com/galaxy-digital/axis-chain/gossip/blockproc/sealmodule"
-	"github.com/galaxy-digital/axis-chain/gossip/blockproc/verwatcher"
-	"github.com/galaxy-digital/axis-chain/gossip/emitter"
-	"github.com/galaxy-digital/axis-chain/gossip/filters"
-	"github.com/galaxy-digital/axis-chain/gossip/gasprice"
-	"github.com/galaxy-digital/axis-chain/inter"
-	"github.com/galaxy-digital/axis-chain/logger"
-	"github.com/galaxy-digital/axis-chain/utils/gsignercache"
-	"github.com/galaxy-digital/axis-chain/utils/wgmutex"
-	"github.com/galaxy-digital/axis-chain/valkeystore"
-	"github.com/galaxy-digital/axis-chain/vecmt"
+	"github.com/galaxy-digital/relativity-chain/ethapi"
+	"github.com/galaxy-digital/relativity-chain/eventcheck"
+	"github.com/galaxy-digital/relativity-chain/eventcheck/basiccheck"
+	"github.com/galaxy-digital/relativity-chain/eventcheck/epochcheck"
+	"github.com/galaxy-digital/relativity-chain/eventcheck/gaspowercheck"
+	"github.com/galaxy-digital/relativity-chain/eventcheck/heavycheck"
+	"github.com/galaxy-digital/relativity-chain/eventcheck/parentscheck"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
+	"github.com/galaxy-digital/relativity-chain/galaxy"
+	"github.com/galaxy-digital/relativity-chain/gossip/blockproc"
+	"github.com/galaxy-digital/relativity-chain/gossip/blockproc/drivermodule"
+	"github.com/galaxy-digital/relativity-chain/gossip/blockproc/eventmodule"
+	"github.com/galaxy-digital/relativity-chain/gossip/blockproc/evmmodule"
+	"github.com/galaxy-digital/relativity-chain/gossip/blockproc/sealmodule"
+	"github.com/galaxy-digital/relativity-chain/gossip/blockproc/verwatcher"
+	"github.com/galaxy-digital/relativity-chain/gossip/emitter"
+	"github.com/galaxy-digital/relativity-chain/gossip/filters"
+	"github.com/galaxy-digital/relativity-chain/gossip/gasprice"
+	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/logger"
+	"github.com/galaxy-digital/relativity-chain/utils/gsignercache"
+	"github.com/galaxy-digital/relativity-chain/utils/wgmutex"
+	"github.com/galaxy-digital/relativity-chain/valkeystore"
+	"github.com/galaxy-digital/relativity-chain/vecmt"
 )
 
 type ServiceFeed struct {
@@ -367,7 +367,7 @@ func (s *Service) WaitBlockEnd() {
 
 // Stop method invoked when the node terminates the service.
 func (s *Service) Stop() error {
-	defer log.Info("axis-galaxy service stopped")
+	defer log.Info("relativity-galaxy service stopped")
 	s.verWatcher.Stop()
 	close(s.done)
 	s.emitter.Stop()

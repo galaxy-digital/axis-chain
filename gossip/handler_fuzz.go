@@ -11,10 +11,10 @@ import (
 	"github.com/ethereum/go-ethereum/p2p"
 	"github.com/ethereum/go-ethereum/p2p/enode"
 
-	"github.com/galaxy-digital/axis-chain/evmcore"
-	"github.com/galaxy-digital/axis-chain/integration/makegenesis"
-	"github.com/galaxy-digital/axis-chain/inter"
-	"github.com/galaxy-digital/axis-chain/utils"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
+	"github.com/galaxy-digital/relativity-chain/integration/makegenesis"
+	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/utils"
 )
 
 const (
@@ -59,7 +59,7 @@ func makeFuzzedPM() (pm *ProtocolManager, err error) {
 		genesisStake   = 2 * 4e6
 	)
 
-	genStore := makegenesis.FakeGenesisStore(genesisStakers, utils.ToAxis(genesisBalance), utils.ToAxis(genesisStake))
+	genStore := makegenesis.FakeGenesisStore(genesisStakers, utils.ToRlv(genesisBalance), utils.ToRlv(genesisStake))
 	genesis := genStore.GetGenesis()
 
 	config := DefaultConfig()

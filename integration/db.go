@@ -12,7 +12,7 @@ import (
 	"github.com/galaxy-digital/lachesis-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/galaxy-digital/axis-chain/gossip"
+	"github.com/galaxy-digital/relativity-chain/gossip"
 )
 
 func DBProducer(chaindataDir string, scale cachescale.Func) kvdb.IterableDBProducer {

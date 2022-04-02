@@ -46,10 +46,10 @@ import (
 	"github.com/galaxy-digital/lachesis-base/hash"
 	"github.com/tyler-smith/go-bip39"
 
-	"github.com/galaxy-digital/axis-chain/evmcore"
-	galaxy "github.com/galaxy-digital/axis-chain/galaxy"
-	"github.com/galaxy-digital/axis-chain/inter"
-	"github.com/galaxy-digital/axis-chain/utils/gsignercache"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
+	galaxy "github.com/galaxy-digital/relativity-chain/galaxy"
+	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/utils/gsignercache"
 )
 
 var (
@@ -2184,7 +2184,7 @@ func checkTxFee(gasPrice *big.Int, gas uint64, cap float64) error {
 	feeEth := new(big.Float).Quo(new(big.Float).SetInt(new(big.Int).Mul(gasPrice, new(big.Int).SetUint64(gas))), new(big.Float).SetInt(big.NewInt(params.Ether)))
 	feeFloat, _ := feeEth.Float64()
 	if feeFloat > cap {
-		return fmt.Errorf("tx fee (%.2f AXIS) exceeds the configured cap (%.2f AXIS)", feeFloat, cap)
+		return fmt.Errorf("tx fee (%.2f RLV) exceeds the configured cap (%.2f RLV)", feeFloat, cap)
 	}
 	return nil
 }

@@ -17,13 +17,13 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 	lru "github.com/hashicorp/golang-lru"
 
-	"github.com/galaxy-digital/axis-chain/evmcore"
-	"github.com/galaxy-digital/axis-chain/gossip/emitter/originatedtxs"
-	"github.com/galaxy-digital/axis-chain/inter"
-	"github.com/galaxy-digital/axis-chain/logger"
-	"github.com/galaxy-digital/axis-chain/tracing"
-	"github.com/galaxy-digital/axis-chain/utils/piecefunc"
-	"github.com/galaxy-digital/axis-chain/utils/rate"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
+	"github.com/galaxy-digital/relativity-chain/gossip/emitter/originatedtxs"
+	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/logger"
+	"github.com/galaxy-digital/relativity-chain/tracing"
+	"github.com/galaxy-digital/relativity-chain/utils/piecefunc"
+	"github.com/galaxy-digital/relativity-chain/utils/rate"
 )
 
 const (

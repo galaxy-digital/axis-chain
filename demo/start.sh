@@ -24,8 +24,8 @@ do
 	--fakenet=${ACC}/$N \
 	--port=${PORT} \
 	--nat extip:127.0.0.1 \
-	--http --http.addr="127.0.0.1" --http.port=${RPCP} --http.corsdomain="*" --http.api="eth,debug,net,admin,web3,personal,txpool,axis,dag" \
-	--ws --ws.addr="127.0.0.1" --ws.port=${WSP} --ws.origins="*" --ws.api="eth,debug,net,admin,web3,personal,txpool,axis,dag" \
+	--http --http.addr="127.0.0.1" --http.port=${RPCP} --http.corsdomain="*" --http.api="eth,debug,net,admin,web3,personal,txpool,rlv,dag" \
+	--ws --ws.addr="127.0.0.1" --ws.port=${WSP} --ws.origins="*" --ws.api="eth,debug,net,admin,web3,personal,txpool,rlv,dag" \
 	--nousb --verbosity=3 --tracing &>> galaxy$i.log)&
 
     echo -e "\tnode$i ok"

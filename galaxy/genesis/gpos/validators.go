@@ -2,10 +2,10 @@ package gpos
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/inter"
 
-	"github.com/galaxy-digital/axis-chain/inter/validatorpk"
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
+	"github.com/galaxy-digital/relativity-chain/inter/validatorpk"
 )
 
 type (

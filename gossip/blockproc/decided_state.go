@@ -10,8 +10,8 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/pos"
 	"github.com/galaxy-digital/lachesis-base/lachesis"
 
-	"github.com/galaxy-digital/axis-chain/galaxy"
-	"github.com/galaxy-digital/axis-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/galaxy"
+	"github.com/galaxy-digital/relativity-chain/inter"
 )
 
 type ValidatorBlockState struct {

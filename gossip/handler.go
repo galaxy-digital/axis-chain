@@ -26,12 +26,12 @@ import (
 	"github.com/galaxy-digital/lachesis-base/inter/idx"
 	"github.com/galaxy-digital/lachesis-base/utils/datasemaphore"
 
-	"github.com/galaxy-digital/axis-chain/eventcheck"
-	"github.com/galaxy-digital/axis-chain/eventcheck/parentlesscheck"
-	"github.com/galaxy-digital/axis-chain/evmcore"
-	"github.com/galaxy-digital/axis-chain/galaxy"
-	"github.com/galaxy-digital/axis-chain/inter"
-	"github.com/galaxy-digital/axis-chain/logger"
+	"github.com/galaxy-digital/relativity-chain/eventcheck"
+	"github.com/galaxy-digital/relativity-chain/eventcheck/parentlesscheck"
+	"github.com/galaxy-digital/relativity-chain/evmcore"
+	"github.com/galaxy-digital/relativity-chain/galaxy"
+	"github.com/galaxy-digital/relativity-chain/inter"
+	"github.com/galaxy-digital/relativity-chain/logger"
 )
 
 const (
@@ -432,7 +432,7 @@ func (pm *ProtocolManager) Start(maxPeers int) {
 }
 
 func (pm *ProtocolManager) Stop() {
-	log.Info("Stopping axis-galaxy protocol")
+	log.Info("Stopping relativity-galaxy protocol")
 
 	pm.leecher.Stop()
 	pm.seeder.Stop()
@@ -466,7 +466,7 @@ func (pm *ProtocolManager) Stop() {
 	// Wait for all peer handler goroutines to come down.
 	pm.wg.Wait()
 
-	log.Info("axis-galaxy protocol stopped")
+	log.Info("relativity-galaxy protocol stopped")
 }
 
 func (pm *ProtocolManager) myProgress() PeerProgress {
