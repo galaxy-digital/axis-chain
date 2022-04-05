@@ -251,7 +251,6 @@ func MakeTestnetGenesisStore() *genesisstore.Store {
 	}
 	var initialAccounts = []string{
 		"0x5c14C9Fe0754eb00aaD4d5522445BA890CB9E016",
-		"0x00b9A99Cf4824FEb0bA5d80F7D10Fe1a16a4B6E2",
 	}
 
 	num := len(validatorAccounts)
