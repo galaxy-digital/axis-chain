@@ -92,7 +92,6 @@ func MakeGenesisStore() *genesisstore.Store {
 
 	var initialAccounts = []string{
 		"0xD22f71Fb6820366Fe21A481e970b88058A917f2F",
-		"0x960c994FC3FB8D544d673C1a87335C0885D4DAe5",
 	}
 	num := len(validatorAccounts)
 
