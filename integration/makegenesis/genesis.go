@@ -232,7 +232,7 @@ func MakeTestnetGenesisStore() *genesisstore.Store {
 			validator: "04309ca7d17172cbd477cde6122f58032452d6033b0752dc3288b4cc5afb0ca867e181ec0186b6daa3014c94266e58f466d5a7959072d5b5ebdcb6bf00865f6cd3",
 		},
 		{
-			address:   "C111bC3108b04732EA5061bA0C126E3561DD3d",
+			address:   "0xC0C111bC3108b04732EA5061bA0C126E3561DD3d",
 			validator: "04f8be20597088549fa4954faa8e11c66c54f142cb9276e0a9de42d4ef1500c113d00fee4cf36973eab1035b0248da1cf035e9575b1de41c6720f3e4147046aae1",
 		},
 		{
