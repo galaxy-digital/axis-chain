@@ -1,6 +1,5 @@
 module github.com/galaxy-digital/axis-chain
 
-
 go 1.14
 
 require (
